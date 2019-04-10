@@ -14,29 +14,29 @@ their functionality.
 ## Template Pipelines
 
 * [BigQuery to Datastore](src/main/java/com/google/cloud/teleport/templates/BigQueryToDatastore.java)
-* [Bigtable to GCS Avro](src/main/java/com/google/cloud/teleport/bigtable/BigtableToAvro.java)
+* [Cloud Bigtable to GCS Avro](src/main/java/com/google/cloud/teleport/bigtable/BigtableToAvro.java)
 * [Bulk Compressor](src/main/java/com/google/cloud/teleport/templates/BulkCompressor.java)
 * [Bulk Decompressor](src/main/java/com/google/cloud/teleport/templates/BulkDecompressor.java)
-* [Datastore Bulk Delete](src/main/java/com/google/cloud/teleport/templates/DatastoreToDatastoreDelete.java) *
-* [Datastore to BigQuery](src/main/java/com/google/cloud/teleport/templates/DatastoreToBigQuery.java)
-* [Datastore to GCS Text](src/main/java/com/google/cloud/teleport/templates/DatastoreToText.java) *
-* [Datastore to Pub/Sub](src/main/java/com/google/cloud/teleport/templates/DatastoreToPubsub.java) *
-* [Datastore Unique Schema Count](src/main/java/com/google/cloud/teleport/templates/DatastoreSchemasCountToText.java)
-* [GCS Avro to Bigtable](src/main/java/com/google/cloud/teleport/bigtable/AvroToBigtable.java)
-* [GCS Avro to Spanner](src/main/java/com/google/cloud/teleport/spanner/ImportPipeline.java)
-* [GCS Text to Spanner](src/main/java/com/google/cloud/teleport/spanner/TextImportPipeline.java)
-* [GCS Text to BigQuery](src/main/java/com/google/cloud/teleport/templates/TextIOToBigQuery.java) *
-* [GCS Text to Datastore](src/main/java/com/google/cloud/teleport/templates/TextToDatastore.java)
-* [GCS Text to Pub/Sub (Batch)](src/main/java/com/google/cloud/teleport/templates/TextToPubsub.java)
-* [GCS Text to Pub/Sub (Streaming)](src/main/java/com/google/cloud/teleport/templates/TextToPubsubStream.java)
+* [Cloud Datastore Bulk Delete](src/main/java/com/google/cloud/teleport/templates/DatastoreToDatastoreDelete.java) *
+* [Cloud Datastore to BigQuery](src/main/java/com/google/cloud/teleport/templates/DatastoreToBigQuery.java)
+* [Cloud Datastore to GCS Text](src/main/java/com/google/cloud/teleport/templates/DatastoreToText.java) *
+* [Cloud Datastore to Cloud Pub/Sub](src/main/java/com/google/cloud/teleport/templates/DatastoreToPubsub.java) *
+* [Cloud Datastore Unique Schema Count](src/main/java/com/google/cloud/teleport/templates/DatastoreSchemasCountToText.java)
+* [GCS Avro to Cloud Bigtable](src/main/java/com/google/cloud/teleport/bigtable/AvroToBigtable.java)
+* [GCS Avro to Cloud Spanner](src/main/java/com/google/cloud/teleport/spanner/ImportPipeline.java)
+* [GCS Text to Cloud Spanner](src/main/java/com/google/cloud/teleport/spanner/TextImportPipeline.java)
+* [GCS Text to Cloud BigQuery](src/main/java/com/google/cloud/teleport/templates/TextIOToBigQuery.java) *
+* [GCS Text to Cloud Datastore](src/main/java/com/google/cloud/teleport/templates/TextToDatastore.java)
+* [GCS Text to Cloud Pub/Sub (Batch)](src/main/java/com/google/cloud/teleport/templates/TextToPubsub.java)
+* [GCS Text to Cloud Pub/Sub (Streaming)](src/main/java/com/google/cloud/teleport/templates/TextToPubsubStream.java)
 * [Jdbc to BigQuery](src/main/java/com/google/cloud/teleport/templates/JdbcToBigQuery.java)
-* [Pub/Sub to BigQuery](src/main/java/com/google/cloud/teleport/templates/PubSubToBigQuery.java) *
-* [Pub/Sub to Datastore](src/main/java/com/google/cloud/teleport/templates/PubsubToDatastore.java) *
+* [Cloud Pub/Sub to BigQuery](src/main/java/com/google/cloud/teleport/templates/PubSubToBigQuery.java) *
+* [Cloud Pub/Sub to Cloud Datastore](src/main/java/com/google/cloud/teleport/templates/PubsubToDatastore.java) *
 * [Pub/Sub to GCS Avro](src/main/java/com/google/cloud/teleport/templates/PubsubToAvro.java)
 * [Pub/Sub to GCS Text](src/main/java/com/google/cloud/teleport/templates/PubsubToText.java)
-* [Pub/Sub to Pub/Sub](src/main/java/com/google/cloud/teleport/templates/PubsubToPubsub.java)
-* [Spanner to GCS Avro](src/main/java/com/google/cloud/teleport/spanner/ExportPipeline.java)
-* [Spanner to GCS Text](src/main/java/com/google/cloud/teleport/templates/SpannerToText.java)
+* [Cloud Pub/Sub to Cloud Pub/Sub](src/main/java/com/google/cloud/teleport/templates/PubsubToPubsub.java)
+* [Cloud Spanner to GCS Avro](src/main/java/com/google/cloud/teleport/spanner/ExportPipeline.java)
+* [Cloud Spanner to GCS Text](src/main/java/com/google/cloud/teleport/templates/SpannerToText.java)
 * [Word Count](src/main/java/com/google/cloud/teleport/templates/WordCount.java)
 
 
